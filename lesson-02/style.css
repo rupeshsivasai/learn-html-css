@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Basic Button Styling */
+.bs-css-button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+}
+
+/* Button Colors */
+
+.button-color-1 {background-color: #04AA6D; color: white;} /* Green */
+.button-color-2 {background-color: #008CBA; color: white;} /* Blue */
+.button-color-3 {background-color: #f44336; color: white;} /* Red */
+.button-color-4 {background-color: #e7e7e7; color: black;} /* Gray */
+.button-color-5 {background-color: #555555; color: white;} /* Black */
+
+#btn-colors {
+    padding: 20px 35px;
+    border: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* Button Sizes */
+
+.button-size-1 {background-color: #04AA6D; color: white; font-size: 10px;} /* Green */
+.button-size-2 {background-color: #008CBA; color: white; font-size: 12px;} /* Blue */
+.button-size-3 {background-color: #f44336; color: white; font-size: 16px;} /* Red */
+.button-size-4 {background-color: #e7e7e7; color: black; font-size: 20px;} /* Gray */
+.button-size-5 {background-color: #555555; color: white; font-size: 24px;} /* Black */
+
+#btn-size {
+    border: none;
+    padding: 20px 35px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* Button Padding property */
+
+.button-padding-1 {background-color: #04AA6D; color: white; padding: 10px 24px;} /* Green */
+.button-padding-2 {background-color: #008CBA; color: white; padding: 12px 28px;} /* Blue */
+.button-padding-3 {background-color: #f44336; color: white; padding: 14px 40px;} /* Red */
+.button-padding-4 {background-color: #e7e7e7; color: black; padding: 32px 16px;} /* Gray */
+.button-padding-5 {background-color: #555555; color: white; padding: 16px;} /* Black */
+
+#btn-padding {
+    border: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* Button Rounded property */
+
+.button-rounded-1 {background-color: #04AA6D; color: white; border-radius: 2px;} /* Green */
+.button-rounded-2 {background-color: #008CBA; color: white; border-radius: 4px;} /* Blue */
+.button-rounded-3 {background-color: #f44336; color: white; border-radius: 8px;} /* Red */
+.button-rounded-4 {background-color: #e7e7e7; color: black; border-radius: 12px;} /* Gray */
+.button-rounded-5 {background-color: #555555; color: white; border-radius: 50%;} /* Black */
+
+#btn-rounded {
+    border: none;
+    padding: 35px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* Border Button Colored */
+
+.button-border-1  {background-color: white; color: black; border: 2px solid #04AA6D;} /* Green */
+.button-border-2  {background-color: white; color: black; border: 2px solid #008CBA;} /* Blue */
+.button-border-3  {background-color: white; color: black; border: 2px solid #f44336;} /* Red */
+.button-border-4  {background-color: white; color: black; border: 2px solid #e7e7e7;} /* Gray */
+.button-border-5  {background-color: white; color: black; border: 2px solid #555555;} /* Black */
+
+#btn-border {
+    padding: 20px 35px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* Hoverable Buttons with Border Color */
+
+.button-hover-border-1 {background-color: white; color: black; border: 2px solid #04AA6D;} /* Green */
+.button-hover-border-2 {background-color: white; color: black; border: 2px solid #008cba;} /* Blue */
+.button-hover-border-3 {background-color: white; color: black; border: 2px solid #f44336;} /* Red */
+.button-hover-border-4 {background-color: white; color: black; border: 2px solid #e7e7e7;} /* Green */
+.button-hover-border-5 {background-color: white; color: black; border: 2px solid #555555;} /* Green */
+
+
+.button-hover-border-1:hover {background-color: #04AA6D; color: white;} /* Green */
+.button-hover-border-2:hover {background-color: #008CBA; color: white;} /* Green */
+.button-hover-border-3:hover {background-color: #f44336; color: white;} /* Green */
+.button-hover-border-4:hover {background-color: #e7e7e7; color: black;} /* Green */
+.button-hover-border-5:hover {background-color: #555555; color: white;} /* Green */
+
+
+#btn-hover-border{
+    padding: 20px 35px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+
+/* Hoverable Buttons with Fill Color */
+
+.button-hover-fill-1:hover {background-color: white; color: black; border: 2px solid #04AA6D;} /* Green */
+.button-hover-fill-2:hover {background-color: white; color: black; border: 2px solid #008CBA;} /* Blue */
+.button-hover-fill-3:hover {background-color: white; color: black; border: 2px solid #f44336;} /* Red */
+.button-hover-fill-4:hover {background-color: white; color: black; border: 2px solid #e7e7e7;} /* Gray */
+.button-hover-fill-5:hover {background-color: white; color: black; border: 2px solid #555555;} /* Black */
+
+.button-hover-fill-1 {background-color: #04AA6D; color: white; border: none; } /* Green */
+.button-hover-fill-2 {background-color: #008CBA; color: white; border: none; } /* Blue */
+.button-hover-fill-3 {background-color: #f44336; color: white; border: none; } /* Red */
+.button-hover-fill-4 {background-color: #e7e7e7; color: black; border: none; } /* Gray */
+.button-hover-fill-5 {background-color: #555555; color: white; border: none; } /* Black */
+
+#btn-hover-fill{
+    padding: 20px 35px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    
+}
+
