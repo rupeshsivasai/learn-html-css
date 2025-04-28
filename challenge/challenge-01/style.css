@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding: 20px;
+    width: 350px;
+    
+}
+
+button {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+img {
+    width: 100%;
+    border-radius: 2px;
+}
+
+#buynow-button {
+    background-color: #ffa41c;
+}
+
+#buynow-button:hover {
+    background-color: #ff9f00;
+}
+
+/* Amazon Add to cart button Background color and hover */
+#add-to-cart-button {
+    background-color: #ffd814;
+}
+#add-to-cart-button:hover {
+    background-color: #ffcc00;
+}
